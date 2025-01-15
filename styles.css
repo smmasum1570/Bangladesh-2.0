@@ -1,0 +1,394 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    background-color: rgba(241, 241, 243, 1);
+}
+
+/* Nav styles */
+.text-primary {
+    color: #0E0E0E
+}
+nav ul {
+    display: flex;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 120px;
+}
+.btn-primary {
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px; 
+    color: #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-color: #006A50;
+    border-width: 1px;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 120px; 
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    padding: 100px 80px;
+    max-width: 1280px;
+}
+.banner-content{
+    max-width: 622px;
+}
+.banner-greetings{
+    font-weight: medium;
+    font-size: 24px;
+    color: dimgrey; 
+    
+}
+.banner-title {
+    font-weight: bold;
+    font-size: 56px; 
+    color: #0E0E0E;
+    background-color: rgba(198, 228, 214, 1);
+}
+.but-primary2 {
+    background-color: #006A50;
+    font-weight: bold;
+    font-size: 18px; 
+    color: #FFFFFF;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border-color: #006A50;
+}
+.banner-profile-pic{
+    width: 474.03;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+/* section vision styles */
+.vision {
+    margin-top: 484px;
+    margin: 24px 120px; 
+}
+.vision-title {
+    color:black;
+    font-weight: bold;
+    font-size: 40px;
+}
+.vision-content {
+    color: dimgrey;
+    font-size: 16px;
+}
+.about-item {
+    display: flex;
+    border-radius: 16px;
+    gap: 24px;
+    padding: 32px 32px;
+    
+    
+}
+.about-item1 {
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px 32px;
+    border-radius: 16px;
+    
+    
+}
+.about-item2 {
+    background-color: #83ebba;
+    padding: 32px 32px;
+    border-radius: 16px;
+}
+.about-item3 {
+    background-color: bisque;
+    padding: 32px 32px;
+    border-radius: 16px;
+}
+
+.button1 {
+    background-color: rgba(84, 144, 245, 1);
+    padding: 11px 20px;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: rgb(0, 187, 255);
+}
+.button2 {
+    background-color: rgba(9, 161, 92, 1);
+    padding: 11px 20px;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: rgb(70, 161, 9);
+}
+.button3 {
+    background-color: rgba(255, 194, 57, 1);
+    padding: 11px 20px;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button3:hover{
+    background-color: rgba(255, 194, 57, 1);
+}
+
+.item-title{
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.item-description{
+    color: rgba(14, 14, 14, 0.7);
+}
+.cheif{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 48px 24px;
+    margin: 24px 120px; 
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    border-radius: 16px;
+}
+.cards {
+    max-width: auto;
+    margin: 24px 120px;
+    padding: 20px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.satelite-title {
+    font-size: 24px;
+    color:black;
+    font-weight: bold;
+    margin-top: 641px;
+    margin-bottom: 32px;
+}
+
+.oc {
+    color: #555;
+    margin-bottom: 20px;   
+}
+
+.satelite-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 48px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 24px;
+}
+
+.satelite {
+    max-width: 308px;
+    border-radius: 24px;
+}
+
+.satelite-description {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.satelite-description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.satelite-description img {
+    width: 100px; 
+    margin-bottom: 10px;
+}
+
+.satelite-description p {
+    margin: 5px 5px;
+    color: #555;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #006400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #004d00;
+}
+.donate-section {
+    max-width: auto;
+    margin: 24px 120px; 
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.donate-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.donate-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.donation-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.donation-btn {
+    flex: 1;
+    padding: 40px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    background-color: #fff;
+    color: rgba(14, 14, 14, 0.8);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.donation-btn:hover {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.donation-btn.selected {
+    background-color: #d9f2e3;
+    color: #333;
+    border-color: #b2d8c7;
+}
+
+.donation-btn.selected:hover{
+    background-color: #006400;
+}
+
+.donation-input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.donate-now-btn {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #006400;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.donate-now-btn:hover {
+    background-color: #004d00;
+}
+
+
+.newsletter-section {
+    max-width: auto;
+    margin: 24px 120px; 
+    background-color: #d9f2e3;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.newsletter-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.newsletter-input {
+    width: 70%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    flex: 1;
+}
+
+.newsletter-input::placeholder {
+    color: #aaa;
+}
+
+.newsletter-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #006400;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-button:hover {
+    background-color: #004d00;
+}
+
+.newsletter-note {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
